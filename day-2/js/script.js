@@ -3,7 +3,12 @@ console.log(20);
 console.log(typeof 20);
 console.log(100n);
 console.log(typeof 100n);*/
+//day 1
+/*let name = "Fedlu";
 
+console.log(name)
+let favouriteFood = "Thie";
+console.log(favouriteFood)
 
 //day 2
 //Assign STRING VALUES ONLY to all of the following variables.
@@ -63,8 +68,9 @@ console.log(pnoun1)
 
 // CHALLENGE 1
 // Prompt the user for their first name
-// Store their input to a variable
-/*const userFirstName = prompt("Please enter your first name")
+// Store their input to a variable*/
+
+/*const userFirstName = prompt("Please enter your first name");
 // Reverse your user’s name
 // Convert to an array
 const nameArray = userFirstName.split('');
@@ -85,17 +91,79 @@ const addedValues = parseInt(num1) + parseInt(num2);
 // Add the numbers together and alert the user with the result
 alert(addedValues);*/
 
+//Take home day 3
 
-/*
 // Store their input to a variable
- const userFirstName = prompt("what is  your first name ?")
+ /*const userFirstName = prompt("what is  your first name ?")
  const userLastName = prompt("what is  your last name ? ")
  console.log(userFirstName)
- alert(userLastName)
+ alert(userLastName)*/
 
 
 
 // bonnus 
-const userBday = prompt("what is your birthday ?" )
-window.confirm(userBday)
+/*const userBday = prompt("what is your birthday ?" )
+window.confirm(userBday)  
+
+/*const userFirstName = prompt("Please enter your first name")
+// Reverse your user’s name
+// Convert to an array
+const nameArray = userFirstName.split('');
+// reverse the array
+const reversedArray = nameArray.reverse();
+// Join array
+const reversedUserName = reversedArray.join('');
+// alert the reversed string
+alert(reversedUserName);*/
+/*function switchStatements() {
+    const num1 = prompt("Please enter a number between 1 and 10");
+switch (num1) {
+    case "1":
+    case "2":
+    case "3":
+    case "4":
+    case "5":
+    case "6":
+    case "7":
+    case "8":
+    case "9":
+    case "10":
+        alert(parseInt(num1));
+        break;
+    default:
+        alert("You didn't enter a number between 1 and 10");
+        
+}
+}
 */
+//alert("This is an alert message box.");  // display a string  message
+
+		//alert('This is a numer: ' + 100); // display result of a concatenation
+
+		//alert(100); // display number
+
+		//alert(Date()); // display current date*/
+
+
+
+ // ------------ DAILY CHALLENGE ------------
+// day 4 daily challenge 
+// Prompt the user for two different numbers  
+let number1 = prompt("give me a number between 1 to 10");
+let number2 = prompt("give me a number between 1 to 10")
+console.log(typeof number1, typeof number2);
+let number1Parse = parseInt(number1);
+let number2Parse = parseInt(number2);
+console.log(typeof number1Parse, typeof number2Parse)
+ if (number1Parse > number2Parse){
+     console.log(number1Parse);
+    } else if (number1Parse === number2Parse){
+console.log("checked ") 
+}else {
+    console.log(nummber2Parse );
+}  
+ alert(number1Parse + number2Parse);
+// Convert the values to integers
+// Store the two integers as variables
+// Compare the two numbers
+// Alert the larger number
