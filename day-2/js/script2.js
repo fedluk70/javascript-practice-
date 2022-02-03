@@ -97,12 +97,12 @@ alert(addedValues);*/
  /*const userFirstName = prompt("what is  your first name ?")
  const userLastName = prompt("what is  your last name ? ")
  console.log(userFirstName)
- alert(userLastName)*/
+ alert(userLastName)
 
 
 
 // bonnus 
-/*const userBday = prompt("what is your birthday ?" )
+const userBday = prompt("what is your birthday ?" )
 window.confirm(userBday)  
 
 /*const userFirstName = prompt("Please enter your first name")
@@ -149,21 +149,24 @@ switch (num1) {
  // ------------ DAILY CHALLENGE ------------
 // day 4 daily challenge 
 // Prompt the user for two different numbers  
-let number1 = prompt("give me a number between 1 to 10");
+/*let number1 = prompt("give me a number between 1 to 10");
 let number2 = prompt("give me a number between 1 to 10")
 console.log(typeof number1, typeof number2);
 let number1Parse = parseInt(number1);
 let number2Parse = parseInt(number2);
 console.log(typeof number1Parse, typeof number2Parse)
- if (number1Parse > number2Parse){
+alert(number1Parse + number2Parse);
+ /*if (number1Parse > number2Parse){
      console.log(number1Parse);
-    } else if (number1Parse === number2Parse){
+} 
+else if (number1Parse === number2Parse){
 console.log("checked ") 
-}else {
-    console.log(nummber2Parse );
+}
+else {
+  console.log(nummber2Parse );
 }  
- alert(number1Parse + number2Parse);
+alert(number1Parse + number2Parse);
 // Convert the values to integers
 // Store the two integers as variables
 // Compare the two numbers
-// Alert the larger number
+// Alert the larger number*/
